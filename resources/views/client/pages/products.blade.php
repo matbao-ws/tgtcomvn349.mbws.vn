@@ -67,6 +67,16 @@
                                     </div>
                                 @endif
 
+                                @if($product->price > 0)
+                                    <div class="product-price-row" style="margin:0.75rem 0; padding:0.4rem 0.65rem; background:#FFF7ED; border-radius:6px; border:1px solid #FFEDD5; display:flex; justify-content:space-between; align-items:center;">
+                                        <div>
+                                            <span style="font-size:0.72rem; color:#64748B; display:block; font-weight:600;">GIÁ THAM KHẢO TÚI 1KG</span>
+                                            <strong style="font-size:1.15rem; color:#EA580C; font-weight:800;">{{ number_format($product->price, 0, ',', '.') }} đ</strong> <span style="font-size:0.8rem; color:#64748B;">/ Túi</span>
+                                        </div>
+                                        <span class="badge badge-orange" style="font-size:0.75rem; padding:4px 8px;">Sỉ Thùng: Báo Giá</span>
+                                    </div>
+                                @endif
+
                                 <div class="product-actions">
                                     <button class="btn btn-outline-navy btn-sm btn-quickview" 
                                         data-product-sku="{{ $product->sku }}"

@@ -259,6 +259,36 @@ const productDatabase = {
         ],
         img: 'assets/images/dried_produce.png'
     },
+    'marquise-1010': {
+        title: 'Khoai Tây Bỉ Marquise Cọng 10/10 (Túi 1kg & Thùng 10kg)',
+        category: 'Nông sản chế biến',
+        origin: 'Vương quốc Bỉ (Marquise - Clarebout)',
+        desc: 'Khoai tây đông lạnh nhập khẩu trực tiếp từ Bỉ thương hiệu Marquise Gastro (thuộc Clarebout). Cọng lớn 10x10mm đầy đặn, giàu tinh bột, giữ nóng và giòn lâu, thơm bùi chuẩn vị châu Âu.',
+        specs: [
+            { label: 'Xuất xứ', val: 'Vương quốc Bỉ (Clarebout Potatoes)' },
+            { label: 'Kích thước cọng', val: '10 x 10 mm (Cắt thẳng cọng dày)' },
+            { label: 'Quy cách đóng gói', val: 'Túi 1kg / Thùng 10 túi (10kg)' },
+            { label: 'Giá tham khảo', val: '49.000 đ / Túi 1kg (Sỉ: Báo giá theo thùng/tấn)' },
+            { label: 'Nhiệt độ bảo quản', val: '≤ -18°C (Hạn dùng 24 tháng)' },
+            { label: 'Hướng dẫn chiên', val: 'Chiên ngập dầu 175°C trong 3-5 phút (không cần rã đông)' }
+        ],
+        img: 'assets/images/marquise_10_10.jpg'
+    },
+    'marquise-77': {
+        title: 'Khoai Tây Chiên Bỉ Marquise Cọng 7/7 (Túi 1kg & Thùng 10kg)',
+        category: 'Nông sản chế biến',
+        origin: 'Vương quốc Bỉ (Marquise - Clarebout)',
+        desc: 'Khoai tây chiên đông lạnh nhập khẩu Bỉ sợi mỏng Shoestring 7x7mm. Chiên vàng ươm giòn rụm, bùi ngậy tự nhiên, ít ngấm dầu, rất được chuỗi nhà hàng fastfood & cafe ưa chuộng.',
+        specs: [
+            { label: 'Xuất xứ', val: 'Vương quốc Bỉ (Clarebout Potatoes)' },
+            { label: 'Kích thước cọng', val: '7 x 7 mm (Shoestring)' },
+            { label: 'Quy cách đóng gói', val: 'Túi 1kg / Thùng 10 túi (10kg)' },
+            { label: 'Giá tham khảo', val: '49.000 đ / Túi 1kg (Sỉ: Báo giá theo thùng/tấn)' },
+            { label: 'Nhiệt độ bảo quản', val: '≤ -18°C (Hạn dùng 24 tháng)' },
+            { label: 'Hướng dẫn chiên', val: 'Chiên trực tiếp từ đông lạnh 175°C trong 3-4 phút' }
+        ],
+        img: 'assets/images/marquise_7_7.jpg'
+    },
     'french-fries': {
         title: 'Khoai tây chiên đông lạnh cắt thẳng & cắt sóng',
         category: 'Nông sản chế biến',

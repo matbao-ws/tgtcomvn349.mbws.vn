@@ -169,6 +169,28 @@ class TgtStorefrontSeeder extends Seeder
             // Nông sản chế biến
             [
                 'category_slug' => 'nong-san-che-bien',
+                'name' => ['vi' => 'KHOAI TÂY BỈ MARQUISE CỌNG 10/10 (TÚI 1KG & THÙNG 10KG)', 'en' => 'Marquise Belgian Frozen French Fries 10/10 (1kg / 10kg Carton)'],
+                'sku' => 'TGT-MARQUISE-1010',
+                'price' => 49000,
+                'short_description' => ['vi' => 'Khoai tây đông lạnh nhập khẩu trực tiếp từ Vương quốc Bỉ thương hiệu Marquise Gastro (thuộc Clarebout). Cọng lớn 10x10mm đầy đặn, giữ nóng và giòn lâu, thơm bùi chuẩn vị châu Âu.', 'en' => 'Premium Belgian frozen french fries 10x10mm by Marquise Gastro (Clarebout). Crisp outside, fluffy inside.'],
+                'description' => ['vi' => "Xuất xứ: Vương quốc Bỉ (Thương hiệu Marquise Gastro - Tập đoàn Clarebout)\nKích thước cọng: 10 x 10 mm (Cắt thẳng cọng dày, đầy tinh bột, giữ giòn lâu)\nQuy cách đóng gói: Túi 1kg / Thùng 10 túi (10kg) / Container lạnh theo yêu cầu\nThành phần: Khoai tây Bỉ tự nhiên, dầu thực vật. Không chất bảo quản\nNhiệt độ bảo quản: ≤ -18°C (Hạn sử dụng 24 tháng)\nChế biến: Chiên trực tiếp không rã đông ở 175°C (3-5 phút), nồi chiên không dầu / lò nướng", 'en' => 'Origin: Belgium (Marquise Gastro - Clarebout). Size 10x10mm, 1kg bag / 10kg carton.'],
+                'image_url' => 'client-assets/images/marquise_10_10.jpg',
+                'is_featured' => true,
+                'sort_order' => 10,
+            ],
+            [
+                'category_slug' => 'nong-san-che-bien',
+                'name' => ['vi' => 'KHOAI TÂY CHIÊN BỈ MARQUISE CỌNG 7/7 (TÚI 1KG & THÙNG 10KG)', 'en' => 'Marquise Belgian Shoestring French Fries 7/7 (1kg / 10kg Carton)'],
+                'sku' => 'TGT-MARQUISE-77',
+                'price' => 49000,
+                'short_description' => ['vi' => 'Khoai tây chiên đông lạnh nhập khẩu Bỉ sợi mỏng Shoestring 7x7mm. Chiên vàng ươm giòn rụm, thơm ngậy bùi tự nhiên, ít ngấm dầu, rất được chuỗi nhà hàng fastfood & cafe ưa chuộng.', 'en' => 'Belgian shoestring fries 7x7mm by Marquise Gastro. Fast cooking, extra crispy, ideal for fast-food chains & cafes.'],
+                'description' => ['vi' => "Xuất xứ: Vương quốc Bỉ (Thương hiệu Marquise Gastro - Tập đoàn Clarebout)\nKích thước cọng: 7 x 7 mm (Cắt sợi nhỏ Shoestring, giòn tan rụm và nhanh chín)\nQuy cách đóng gói: Túi 1kg / Thùng 10 túi (10kg) / Container lạnh theo yêu cầu\nThành phần: Khoai tây Bỉ tự nhiên, dầu thực vật (hướng dương). Không chất bảo quản\nNhiệt độ bảo quản: ≤ -18°C (Hạn sử dụng 24 tháng)\nChế biến: Chiên trực tiếp từ đông lạnh ở 175°C (3-4 phút); Nồi chiên không dầu 180-200°C (10-12 phút)", 'en' => 'Origin: Belgium (Marquise Gastro - Clarebout). Size 7x7mm Shoestring, 1kg bag / 10kg carton.'],
+                'image_url' => 'client-assets/images/marquise_7_7.jpg',
+                'is_featured' => true,
+                'sort_order' => 11,
+            ],
+            [
+                'category_slug' => 'nong-san-che-bien',
                 'name' => ['vi' => 'KHOAI TÂY CHIÊN ĐÔNG LẠNH CẮT THẲNG / SÓNG', 'en' => 'Frozen French Fries (Straight & Crinkle Cut)'],
                 'sku' => 'TGT-FRIES-STRAIGHT',
                 'price' => 0,
@@ -176,7 +198,7 @@ class TgtStorefrontSeeder extends Seeder
                 'description' => ['vi' => "Cắt sợi: 7mm / 9mm / 10mm (Cắt thẳng & sóng)\nĐóng gói: Túi 2.5kg x 4 túi/Thùng (10kg/Thùng)\nBảo quản: -18°C đông lạnh sâu\nHạn dùng: 24 tháng", 'en' => 'Size 7mm/9mm/10mm, 2.5kg x 4 bags/carton.'],
                 'image_url' => 'client-assets/images/processed_potatoes.png',
                 'is_featured' => true,
-                'sort_order' => 10,
+                'sort_order' => 12,
             ],
             [
                 'category_slug' => 'nong-san-che-bien',
@@ -187,7 +209,7 @@ class TgtStorefrontSeeder extends Seeder
                 'description' => ['vi' => "Quy cách: Múi cau 8 phần tẩm gia vị nhẹ\nĐóng gói: Túi 2.5kg x 4 túi / Thùng carton\nBảo quản: -18°C\nChiên nhanh: 3.5 - 4 phút ở 175°C", 'en' => 'Seasoned wedges 10kg/carton.'],
                 'image_url' => 'client-assets/images/processed_potatoes.png',
                 'is_featured' => false,
-                'sort_order' => 11,
+                'sort_order' => 13,
             ],
 
             // Nông sản xuất khẩu
@@ -200,7 +222,7 @@ class TgtStorefrontSeeder extends Seeder
                 'description' => ['vi' => "Thị trường xuất: Châu Á, Trung Đông, EU, Mỹ\nChứng từ: Phytosanitary, CO Form E/AK/EUR1\nQuy cách: Thùng carton / Pallet xuất khẩu\nĐiều kiện: FOB Cảng VN, CIF Cảng đến", 'en' => 'FOB VN Ports, CIF destination ports.'],
                 'image_url' => 'client-assets/images/fresh_fruits.png',
                 'is_featured' => true,
-                'sort_order' => 12,
+                'sort_order' => 14,
             ],
 
             // Hàng hóa XNK
@@ -213,7 +235,7 @@ class TgtStorefrontSeeder extends Seeder
                 'description' => ['vi' => "Nguồn tìm kiếm: Bỉ, Hà Lan, Ấn Độ, TQ, Myanmar...\nTiêu chuẩn: HACCP, ISO 22000, VietGAP\nQuy trình: Mẫu test → Hợp đồng → Giao\nĐiều kiện: FOB, CIF, CFR, DDP", 'en' => 'Sourcing from EU, India, China, Myanmar.'],
                 'image_url' => 'client-assets/images/cold_storage_warehouse.png',
                 'is_featured' => true,
-                'sort_order' => 13,
+                'sort_order' => 15,
             ],
         ];
 
