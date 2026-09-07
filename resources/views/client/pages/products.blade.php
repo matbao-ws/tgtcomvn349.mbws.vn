@@ -43,23 +43,30 @@
                             $descLines = array_filter(array_map('trim', explode("\n", (string)$product->description)));
                         @endphp
                         <div class="product-card" data-category="{{ $catSlug }}">
-                            <div class="product-img-wrapper">
-                                <img src="{{ $imgUrl }}" alt="{{ $product->name }}">
+                            <div class="product-img-wrapper {{ str_contains($imgUrl, 'marquise') ? 'img-contain' : '' }}">
+                                <img src="{{ $imgUrl }}" alt="{{ $product->name }}" loading="lazy">
                                 <span class="product-category-tag">{{ $catName }}</span>
                                 @if($product->brand)
                                     <span class="product-origin-badge">{{ $product->brand->name }}</span>
+                                @elseif(str_contains($imgUrl, 'marquise'))
+                                    <span class="product-origin-badge">Bỉ (Belgium)</span>
+                                @elseif($catSlug === 'nong-san-xuat-khau')
+                                    <span class="product-origin-badge">Việt Nam</span>
                                 @endif
                             </div>
                             <div class="product-content">
-                                <h3 class="product-title">{{ $product->name }}</h3>
-                                <p class="product-desc">{{ $product->short_description }}</p>
+                                <h3 class="product-title" title="{{ $product->name }}">{{ $product->name }}</h3>
+                                <p class="product-desc" title="{{ $product->short_description }}">{{ $product->short_description }}</p>
                                 
                                 @if(!empty($descLines))
                                     <div class="product-specs-list">
-                                        @foreach($descLines as $line)
+                                        @foreach(array_slice($descLines, 0, 4) as $line)
                                             @if(str_contains($line, ':'))
                                                 @php [$k, $v] = explode(':', $line, 2); @endphp
-                                                <div class="product-spec-item"><label>{{ mb_strtoupper(trim($k)) }}:</label> <span>{{ trim($v) }}</span></div>
+                                                <div class="product-spec-item">
+                                                    <label>{{ mb_strtoupper(trim($k)) }}:</label>
+                                                    <span title="{{ trim($v) }}">{{ trim($v) }}</span>
+                                                </div>
                                             @else
                                                 <div class="product-spec-item"><span>{{ $line }}</span></div>
                                             @endif
@@ -67,15 +74,20 @@
                                     </div>
                                 @endif
 
-                                @if($product->price > 0)
-                                    <div class="product-price-row" style="margin:0.75rem 0; padding:0.4rem 0.65rem; background:#FFF7ED; border-radius:6px; border:1px solid #FFEDD5; display:flex; justify-content:space-between; align-items:center;">
-                                        <div>
-                                            <span style="font-size:0.72rem; color:#64748B; display:block; font-weight:600;">GIÁ THAM KHẢO TÚI 1KG</span>
-                                            <strong style="font-size:1.15rem; color:#EA580C; font-weight:800;">{{ number_format($product->price, 0, ',', '.') }} đ</strong> <span style="font-size:0.8rem; color:#64748B;">/ Túi</span>
+                                <div class="product-price-bar {{ $product->price > 0 ? 'has-price' : '' }}">
+                                    @if($product->price > 0)
+                                        <div class="price-val">
+                                            <strong>{{ number_format($product->price, 0, ',', '.') }} đ</strong>
+                                            <span class="price-sub">/ Túi 1kg</span>
                                         </div>
-                                        <span class="badge badge-orange" style="font-size:0.75rem; padding:4px 8px;">Sỉ Thùng: Báo Giá</span>
-                                    </div>
-                                @endif
+                                        <span class="badge-quote">Sỉ: Báo Giá</span>
+                                    @else
+                                        <div class="price-val b2b-quote">
+                                            <i class="fas fa-handshake me-1" style="font-size:0.85rem;"></i> Báo Giá Sỉ B2B
+                                        </div>
+                                        <span class="badge-quote-b2b">Theo Container</span>
+                                    @endif
+                                </div>
 
                                 <div class="product-actions">
                                     <button class="btn btn-outline-navy btn-sm btn-quickview" 

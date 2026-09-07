@@ -13,6 +13,8 @@ class HomeController extends Controller
     {
         $categories = Category::query()
             ->where('is_active', true)
+            ->where('slug', '!=', 'chua-phan-loai')
+            ->whereHas('products', fn ($q) => $q->where('is_active', true))
             ->orderBy('sort_order')
             ->get();
 
