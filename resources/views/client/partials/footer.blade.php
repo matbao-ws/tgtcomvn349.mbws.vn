@@ -8,7 +8,8 @@
                 </div>
                 <p style="margin-top:0.85rem; font-size:0.9rem; line-height:1.65;">
                     <strong>CÔNG TY CỔ PHẦN XUẤT NHẬP KHẨU THƯƠNG MẠI TGT</strong><br>
-                    Mã Số Thuế: <strong>0109575866</strong><br>
+                    Mã Số Thuế: <strong>0111571986</strong><br>
+                    Số Tài Khoản: <strong>111619386868</strong> - VietinBank (CN Thành An - Hội Sở)<br>
                     Đơn vị chuyên nghiệp nhập khẩu, xuất khẩu & phân phối nông sản sỉ cho doanh nghiệp, nhà máy & đại lý.
                 </p>
             </div>
@@ -40,11 +41,11 @@
                 <div class="footer-info-list">
                     <div class="footer-info-item">
                         <i class="fas fa-location-dot"></i>
-                        <span>C39-13 KĐT Geleximco Lê Trọng Tấn, Dương Nội, Hà Nội</span>
+                        <span>C39-13 KĐT Geleximco, đường Lê Trọng Tấn, Phường Dương Nội, Thành phố Hà Nội, Việt Nam</span>
                     </div>
                     <div class="footer-info-item">
                         <i class="fas fa-phone-alt"></i>
-                        <span>0329575866 / 0921575866</span>
+                        <span>0329575866</span>
                     </div>
                     <div class="footer-info-item">
                         <i class="fas fa-envelope"></i>

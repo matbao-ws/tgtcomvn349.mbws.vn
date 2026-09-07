@@ -34,7 +34,7 @@
                             </div>
                             <div>
                                 <h4 style="font-size:1rem; color:#0F233D; margin-bottom:2px;">THÔNG TIN PHÁP LÝ</h4>
-                                <span style="font-size:0.9rem; color:#475569;">CTCP XNK TM TGT (MST: 0109575866) - VAT Hợp Lệ</span>
+                                <span style="font-size:0.9rem; color:#475569;">CTCP XNK TM TGT (Mã số thuế: <strong>0111571986</strong>) - VAT Hợp Lệ</span>
                             </div>
                         </div>
 
@@ -44,7 +44,7 @@
                             </div>
                             <div>
                                 <h4 style="font-size:1rem; color:#0F233D; margin-bottom:2px;">ĐỊA CHỈ TRỤ SỞ CHÍNH</h4>
-                                <span style="font-size:0.9rem; color:#475569;">C39-13 KĐT Geleximco Lê Trọng Tấn, Dương Nội, Hà Nội</span>
+                                <span style="font-size:0.9rem; color:#475569;">C39-13 KĐT Geleximco, đường Lê Trọng Tấn, Phường Dương Nội, Thành phố Hà Nội, Việt Nam</span>
                             </div>
                         </div>
 
@@ -54,7 +54,17 @@
                             </div>
                             <div>
                                 <h4 style="font-size:1rem; color:#0F233D; margin-bottom:2px;">ĐƯỜNG DÂY NÓNG B2B / ZALO TƯ VẤN</h4>
-                                <span style="font-size:1.1rem; font-weight:700; color:#EA580C;">0329575866 / 0921575866</span>
+                                <span style="font-size:1.1rem; font-weight:700; color:#EA580C;">0329575866</span>
+                            </div>
+                        </div>
+
+                        <div style="display:flex; align-items:flex-start; gap:0.85rem;">
+                            <div style="width:42px; height:42px; background:#ECFDF5; color:#059669; border-radius:10px; display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+                                <i class="fas fa-credit-card"></i>
+                            </div>
+                            <div>
+                                <h4 style="font-size:1rem; color:#0F233D; margin-bottom:2px;">TÀI KHOẢN NGÂN HÀNG (VIETINBANK)</h4>
+                                <span style="font-size:0.9rem; color:#475569;">Số TK: <strong style="color:#0F233D; font-weight:700;">111619386868</strong> tại Ngân hàng TMCP Công Thương Việt Nam - CN Thành An - Hội Sở</span>
                             </div>
                         </div>
 

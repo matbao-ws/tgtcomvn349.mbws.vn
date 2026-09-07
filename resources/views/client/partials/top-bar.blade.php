@@ -4,7 +4,7 @@
         <div class="top-bar-info">
             <div class="top-bar-info-item">
                 <i class="fas fa-location-dot"></i>
-                <span>Geleximco Lê Trọng Tấn, Hà Nội</span>
+                <span>C39-13 KĐT Geleximco, Lê Trọng Tấn, Hà Nội</span>
             </div>
             <div class="top-bar-info-item">
                 <i class="fas fa-phone-alt"></i>

@@ -103,21 +103,25 @@ class FoundationSeeder extends Seeder
         }
 
         $settings = [
-            'shop_name' => 'Laravel Ecommerce Core',
-            'logo_url' => null,
-            'favicon_url' => null,
+            'shop_name' => 'CÔNG TY CỔ PHẦN XUẤT NHẬP KHẨU THƯƠNG MẠI TGT',
+            'logo_url' => 'client-assets/images/logo-tgt.png',
+            'favicon_url' => 'client-assets/images/logo-tgt.png',
             'contact' => [
-                'phone' => null,
-                'email' => null,
-                'address' => null,
+                'phone' => '0329575866',
+                'email' => 'info@tgt.com.vn',
+                'address' => 'C39-13 KĐT Geleximco, đường Lê Trọng Tấn, Phường Dương Nội, Thành phố Hà Nội, Việt Nam',
+                'tax_id' => '0111571986',
+                'bank_name' => 'Ngân hàng TMCP Công Thương Việt Nam (VietinBank) - Chi nhánh Thành An - Hội Sở',
+                'account_number' => '111619386868',
+                'account_holder' => 'CÔNG TY CỔ PHẦN XUẤT NHẬP KHẨU THƯƠNG MẠI TGT',
             ],
             'theme' => [
-                'primary_color' => '#0d6efd',
+                'primary_color' => '#059669',
                 'layout' => 'default',
             ],
             'seo' => [
-                'title' => 'Laravel Ecommerce Core',
-                'description' => null,
+                'title' => 'CÔNG TY CỔ PHẦN XUẤT NHẬP KHẨU THƯƠNG MẠI TGT (TGT TIMEX)',
+                'description' => 'TGT TIMEX - Đối tác thương mại & xuất nhập khẩu nông sản B2B hàng đầu Việt Nam.',
             ],
             'social_links' => [],
             'multilingual' => [

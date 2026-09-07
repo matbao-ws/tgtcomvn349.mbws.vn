@@ -213,7 +213,7 @@
                     <div class="recruit-contact-details">
                         <div class="recruit-contact-item">
                             <i class="fas fa-location-dot"></i>
-                            <div><strong>Địa chỉ làm việc:</strong> D49-04 KĐT Geleximco Lê Trọng Tấn, Dương Nội, Hà Đông, Hà Nội</div>
+                            <div><strong>Địa chỉ làm việc:</strong> C39-13 KĐT Geleximco, đường Lê Trọng Tấn, Phường Dương Nội, Thành phố Hà Nội, Việt Nam</div>
                         </div>
                         <div class="recruit-contact-item">
                             <i class="fas fa-phone"></i>

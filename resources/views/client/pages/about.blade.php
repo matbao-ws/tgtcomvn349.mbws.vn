@@ -29,11 +29,14 @@
                     <!-- Legal Detail Box -->
                     <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-radius:10px; padding:1.25rem; margin-bottom:1.5rem;">
                         <h4 style="font-size:1.05rem; color:#0F233D; margin-bottom:0.75rem;"><i class="fas fa-file-contract" style="color:#059669;"></i> HỒ SƠ PHÁP LÝ DOANH NGHIỆP</h4>
-                        <div style="display:grid; grid-template-columns: 1fr 1fr; gap:0.5rem; font-size:0.875rem;">
-                            <div><strong style="color:#64748B;">Tên pháp lý:</strong> <span style="color:#0F233D;">CTCP XNK TM TGT</span></div>
-                            <div><strong style="color:#64748B;">Mã Số Thuế:</strong> <span style="color:#0F233D;">0109575866</span></div>
-                            <div><strong style="color:#64748B;">Trụ sở chính:</strong> <span style="color:#0F233D;">Geleximco Hà Nội</span></div>
-                            <div><strong style="color:#64748B;">Hóa đơn VAT:</strong> <span style="color:#059669; font-weight:700;">Hợp lệ 100%</span></div>
+                        <div style="display:grid; grid-template-columns: 1fr 1fr; gap:0.65rem; font-size:0.875rem;">
+                            <div style="grid-column: 1 / -1;"><strong style="color:#64748B;">Tên pháp lý:</strong> <span style="color:#0F233D; font-weight:700;">CÔNG TY CỔ PHẦN XUẤT NHẬP KHẨU THƯƠNG MẠI TGT</span></div>
+                            <div><strong style="color:#64748B;">Mã Số Thuế (Tax Code):</strong> <span style="color:#059669; font-weight:700; font-size:1.05rem; letter-spacing:0.5px;">0111571986</span></div>
+                            <div><strong style="color:#64748B;">Điện thoại (Tel):</strong> <span style="color:#EA580C; font-weight:700;">0329575866</span></div>
+                            <div style="grid-column: 1 / -1;"><strong style="color:#64748B;">Địa chỉ trụ sở (Address):</strong> <span style="color:#0F233D;">C39-13 KĐT Geleximco, đường Lê Trọng Tấn, Phường Dương Nội, Thành phố Hà Nội, Việt Nam</span></div>
+                            <div style="grid-column: 1 / -1;"><strong style="color:#64748B;">Số tài khoản (Account No.):</strong> <span style="color:#0F233D; font-weight:700;">111619386868</span> tại Ngân hàng TMCP Công Thương Việt Nam (VietinBank) - Chi nhánh Thành An - Hội Sở</div>
+                            <div><strong style="color:#64748B;">Hóa đơn VAT:</strong> <span style="color:#059669; font-weight:700;">Hợp lệ 100% (Xuất hóa đơn điện tử)</span></div>
+                            <div><strong style="color:#64748B;">Hộp thư điện tử:</strong> <span style="color:#0F233D; font-weight:600;">info@tgt.com.vn</span></div>
                         </div>
                     </div>
 

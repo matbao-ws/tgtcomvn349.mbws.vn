@@ -587,7 +587,7 @@ const jobDatabase = {
         dept: 'Phòng Mua Hàng & Xuất Nhập Khẩu',
         badge: 'Toàn Thời Gian',
         salary: '10 – 15 Triệu + Thưởng 10-20% Tiết Kiệm Giá + KPI (Thu nhập 15 – 25 Triệu+)',
-        workLocation: 'D49-04 KĐT Geleximco Lê Trọng Tấn, Dương Nội, Hà Đông, Hà Nội',
+        workLocation: 'C39-13 KĐT Geleximco, đường Lê Trọng Tấn, Phường Dương Nội, Thành phố Hà Nội, Việt Nam',
         workTime: '8:30 – 17:30, từ Thứ 2 đến Thứ 7',
         purpose: 'Tìm kiếm, đánh giá và đàm phán với các nhà cung cấp nông sản (khoai tây, hành tây, tỏi, gừng, trái cây...) trong nước & quốc tế, tối ưu giá vốn và đảm bảo nguồn hàng đạt chuẩn chất lượng.',
         duties: [
@@ -616,7 +616,7 @@ const jobDatabase = {
         dept: 'Phòng Kinh Doanh',
         badge: 'Toàn Thời Gian',
         salary: '7 – 15 Triệu + Hoa Hồng 10% Lợi Nhuận Gộp + Thưởng KH Mới (Thu nhập 15 – 30+ Triệu)',
-        workLocation: 'D49-04 KĐT Geleximco Lê Trọng Tấn, Dương Nội, Hà Đông, Hà Nội',
+        workLocation: 'C39-13 KĐT Geleximco, đường Lê Trọng Tấn, Phường Dương Nội, Thành phố Hà Nội, Việt Nam',
         workTime: '8:30 – 17:30, từ Thứ 2 đến Thứ 7',
         purpose: 'Khai thác, mở rộng thị trường và phát triển sản lượng bán sỉ nông sản (khoai tây tươi/đông lạnh, hành, tỏi, củ quả) cho các nhà máy chế biến, bếp ăn công nghiệp, chợ đầu mối, đại lý và chuỗi siêu thị/HORECA.',
         duties: [
@@ -645,7 +645,7 @@ const jobDatabase = {
         dept: 'Phòng Kinh Doanh',
         badge: 'Toàn Thời Gian (Nữ 25-35 tuổi)',
         salary: '10 – 12 Triệu + Thưởng 2% Lợi Nhuận Gộp (Thu nhập 15 – 20 Triệu)',
-        workLocation: 'D49-04 KĐT Geleximco Lê Trọng Tấn, Dương Nội, Hà Nội',
+        workLocation: 'C39-13 KĐT Geleximco, đường Lê Trọng Tấn, Phường Dương Nội, Thành phố Hà Nội, Việt Nam',
         workTime: '8:30 – 17:30, từ Thứ 2 đến Thứ 7',
         purpose: 'Quản trị hệ thống CRM, theo dõi pipeline bán hàng, hỗ trợ đội ngũ sales soạn báo giá/hợp đồng và quản lý quy trình đơn hàng chính xác, kịp thời.',
         duties: [
@@ -673,7 +673,7 @@ const jobDatabase = {
         dept: 'Phòng Kế Toán',
         badge: 'Toàn Thời Gian',
         salary: '8 – 12 Triệu + Thưởng 0.5% Lợi Nhuận Gộp + Thưởng Thành Tích (Thu nhập 12 – 18 Triệu)',
-        workLocation: 'D49-04 KĐT Geleximco Lê Trọng Tấn, Dương Nội, Hà Nội',
+        workLocation: 'C39-13 KĐT Geleximco, đường Lê Trọng Tấn, Phường Dương Nội, Thành phố Hà Nội, Việt Nam',
         workTime: '8:30 – 17:30, từ Thứ 2 đến Thứ 7',
         purpose: 'Quản trị dòng tiền an toàn, ghi nhận và kiểm soát thu chi, công nợ khách hàng & nhà cung cấp, kiểm soát hóa đơn chứng từ thuế và hỗ trợ Ban Giám đốc bằng số liệu tài chính thực tế.',
         duties: [
